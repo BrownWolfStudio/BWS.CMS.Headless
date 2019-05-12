@@ -78,10 +78,10 @@ namespace BWS.CMS.Headless.Api
 
             services.AddAuthentication()
             // Add Cookie Authentication
-            .AddCookie(options =>
-            {
-                options.SlidingExpiration = true;
-            })
+            //.AddCookie(options =>
+            //{
+            //    options.SlidingExpiration = true;
+            //})
             // Add Jwt Authentication
             .AddJwtBearer(options =>
             {
